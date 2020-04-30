@@ -1,5 +1,5 @@
 import React from 'react'
-import avator from '../../asset/img/avatar.JPG'
+import avator from '../../asset/img/avatar.jpeg'
 import Email from '../../asset/img/email.png'
 import Github from '../../asset/img/github.png'
 import Weibo from '../../asset/img/wb.png'
@@ -7,8 +7,8 @@ import Weibo from '../../asset/img/wb.png'
 import './index.scss'
 
 const SOCIAL_TYPE = {
-  email: { img: Email, url: 'mailto:huanqiang@124.com' },
-  github: { img: Github, url: 'https://github.com/Huanqiang' },
+  email: { img: Email, url: '598159298@qq.com' },
+  github: { img: Github, url: 'https://github.com/dunkezhang' },
   weibo: { img: Weibo, url: 'https://weibo.com/u/6076963078/home' }
 }
 
@@ -46,4 +46,4 @@ const Card = ({ img, name, socials }) => (
   </div>
 )
 
-export default () => <Card img={avator} name="huanqiang" socials={socials}></Card>
+export default () => <Card img={avator} name="zhangdunke" socials={socials}></Card>
